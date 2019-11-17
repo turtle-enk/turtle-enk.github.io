@@ -1,8 +1,8 @@
 // CSSのURLを定義
     // 縦書きCSS
-    var tatecssurl= './css/illbenet_tategaki.css';
+    var tatecssurl= 'http://turtle-enk.github.io/tategaki.css';
     // 横書きCSS
-    var yokocssurl= './css/illbenet_yokogaki.css';
+    var yokocssurl= 'http://turtle-enk.github.io/yokogaki.css';
 // メイン処理
 $(document).ready(
     function() {
