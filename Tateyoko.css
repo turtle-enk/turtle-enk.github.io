@@ -1,0 +1,62 @@
+/* -------------------------------------------------------------------------------- */
+/* 縦書き横書き切り替えボタン
+*/
+/* -------------------------------------------------------------------------------- */
+#switchTateyoko{margin: 10px 0; float: right; font-size: 0.7em;}
+#switchTateyoko li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    color: #999;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,f9f9f9+50,d6d6d6+100 */
+    background: rgb(254,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(254,255,255,1) 0%, rgba(249,249,249,1) 50%, rgba(214,214,214,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,255,255,1)), color-stop(50%,rgba(249,249,249,1)), color-stop(100%,rgba(214,214,214,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(249,249,249,1) 50%,rgba(214,214,214,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(249,249,249,1) 50%,rgba(214,214,214,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(249,249,249,1) 50%,rgba(214,214,214,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(254,255,255,1) 0%,rgba(249,249,249,1) 50%,rgba(214,214,214,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d6d6d6',GradientType=0 ); /* IE6-9 */
+}
+#switchTateyoko li.current{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6d6d6+0,f9f9f9+50,feffff+100 */
+    background: rgb(214,214,214); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(214,214,214,1) 0%, rgba(249,249,249,1) 50%, rgba(254,255,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(214,214,214,1)), color-stop(50%,rgba(249,249,249,1)), color-stop(100%,rgba(254,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(214,214,214,1) 0%,rgba(249,249,249,1) 50%,rgba(254,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(214,214,214,1) 0%,rgba(249,249,249,1) 50%,rgba(254,255,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(214,214,214,1) 0%,rgba(249,249,249,1) 50%,rgba(254,255,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(214,214,214,1) 0%,rgba(249,249,249,1) 50%,rgba(254,255,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */
+}
+#switchTateyoko li:hover{color: #000;}
+#switchTateyoko li#btn_tategaki{
+    -moz-border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    border-radius: 10px 0 0 10px;
+}
+#switchTateyoko li#btn_yokogaki{
+    border-left: 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    border-radius: 0 10px 10px 0;
+}
+/* -------------------------------------------------------------------------------- */
+/* 小説ブロック
+*/
+/* -------------------------------------------------------------------------------- */
+#novel{clear: both;}
+#honbun{font-size: 1.2em; line-height: 2em; padding: 30px 0;}
+/* -------------------------------------------------------------------------------- */
+/* 本文用クラス
+*/
+/* -------------------------------------------------------------------------------- */
+.gothic{font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', 'Meiryo UI', 'メイリオ', Meiryo, 'ＭＳ ゴシック', 'MS Gothic', sans-serif;}
+.mincho{font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'HiraMinProN-W3', '游明朝', 'Yu Mincho', '游明朝体', 'YuMincho', 'HGS明朝E', 'HG明朝E', 'ＭＳ 明朝', 
