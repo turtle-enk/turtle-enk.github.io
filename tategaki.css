@@ -1,9 +1,8 @@
 
 #honbun{
-    height: 24em;
+    height: 50em;
     overflow: auto;
-    margin: 0 1.5% 30px;
-    width: 86%;
+    width: 100%;
     float: left;
     writing-mode: tb-rl;
     writing-mode: vertical-rl;
