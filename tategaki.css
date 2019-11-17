@@ -1,0 +1,35 @@
+/* -------------------------------------------------------------------------------- */
+/* 小説ブロック
+*/
+/* -------------------------------------------------------------------------------- */
+#honbun{
+    height: 24em;
+    overflow: auto;
+    margin: 0 1.5% 30px;
+    width: 86%;
+    float: left;
+    writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    /writing-mode: tb-rl;
+    _writing-mode: tb-rl;
+    -ms-writing-mode: tb-rl;
+    -moz-writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -o-writing-mode: vertical-rl;
+}
+/* -------------------------------------------------------------------------------- */
+/* ページめくりボタン
+*/
+/* -------------------------------------------------------------------------------- */
+#honbun_prev, #honbun_next{
+    margin-top: 20em;
+    width: 5%;
+    height: 50px;
+    text-align: center;
+    border: 0;
+    float: left;
+    opacity: 0.5;
+    background-color: #fff;
+}
+#honbun_prev:hover, #honbun_next:hover{opacity: 1; cursor: pointer;}
+.opacity03{opacity: 0.3;}
