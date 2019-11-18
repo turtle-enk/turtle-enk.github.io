@@ -7,10 +7,10 @@ $("#js-switch-mode").click(function () {
   $('p').toggleClass('tate');
   $(this).toggleClass('is-active');
   if(flg == "off"){
-    $(this).html("");
+    $(this).html("<i class='fas fa-moon'></i>");
     flg = "on";
   }else{
-    $(this).html("");
+    $(this).html("<i class='fas fa-moon'></i>");
     flg = "off";
   }
   setMyCookie();
