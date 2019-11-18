@@ -1,16 +1,16 @@
 function setMyCookie() {
-  myCookieVal = $('p').hasClass('tate') ? 'isActive' : 'notActive';
+  myCookieVal = $('p').hasClass('honbun') ? 'isActive' : 'notActive';
   $.cookie('myCookieName', myCookieVal, { expires: 365, path: '/' });
 }
 var flg = "off";
-$("#tate").click(function () {
+$("#js-switch-mode").click(function () {
   $('p').toggleClass('tate');
   $(this).toggleClass('is-active');
   if(flg == "off"){
-    $(this).html("<input type="button" value="縦書き" onclick="changeStyle('');">");
+    $(this).html("<button class='switch'></button>");
     flg = "on";
   }else{
-    $(this).html("<input type="button" value="横書き" onclick="changeStyle('');">");
+    $(this).html("<button class='switch'></button>");
     flg = "off";
   }
   setMyCookie();
