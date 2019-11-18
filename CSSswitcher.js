@@ -10,8 +10,8 @@
 
 var CssSwitcher = {
   // Settings
-  cssPath : "", // http://domain/path/to/css/
-  idList : [ 'hoge', 'hoge' ], // List up id attribute of 'stylesheet' rel attribute
+  cssPath : "https://turtle-enk.github.io/", // http://domain/path/to/css/
+  idList : [ 'tate', 'yoko' ], // List up id attribute of 'stylesheet' rel attribute
   // Cookie Settings
   domain : "",
   path : "/",
