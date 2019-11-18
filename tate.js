@@ -1,5 +1,5 @@
 function switch_tate(){
-  $(#switch).click(function(){
+  $(.switch).click(function(){
     $(".honbun").toggleClass("tate");
 });
 });
