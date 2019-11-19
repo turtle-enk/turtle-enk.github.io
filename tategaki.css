@@ -14,10 +14,9 @@ height:80%;
     -moz-writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
     -o-writing-mode: vertical-rl;
-text-orientation: upright;
-    -webkit-text-orientation: upright;
 }
 .tc{
     text-combine-upright: all;
     -webkit-text-combine: horizontal;
     -ms-text-combine-horizontal: all;}
+.to{text-orientation: upright; -webkit-text-orientation: upright;}
