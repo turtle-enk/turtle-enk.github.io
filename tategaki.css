@@ -13,4 +13,10 @@ height:80%;
     -ms-writing-mode: tb-rl;
     -moz-writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
-    -o-writing-mode: vertical-rl;}
+    -o-writing-mode: vertical-rl;
+text-orientation: upright;
+}
+.tc{
+    text-combine-upright: all;
+    -webkit-text-combine: horizontal;
+    -ms-text-combine-horizontal: all;}
