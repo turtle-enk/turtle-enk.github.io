@@ -15,6 +15,7 @@ height:80%;
     -webkit-writing-mode: vertical-rl;
     -o-writing-mode: vertical-rl;
 text-orientation: upright;
+    -webkit-text-orientation: upright;
 }
 .tc{
     text-combine-upright: all;
