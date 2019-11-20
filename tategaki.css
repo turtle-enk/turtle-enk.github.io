@@ -26,3 +26,5 @@ height:80%;
 
 .qe {font-size:0;}
 .qe::before {font-size: 14px; content: "〟";}
+
+@media screen and (max-width: 400px) {.qf,.qe{ font-size : 90% ;}}
