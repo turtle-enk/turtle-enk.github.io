@@ -20,3 +20,9 @@ height:80%;
     -webkit-text-combine: horizontal;
     -ms-text-combine-horizontal: all;}
 .to{text-orientation: upright; -webkit-text-orientation: upright;}
+
+.qf {font-size:0;}
+.qf::before {font-size: 14px; content: "〝";}
+
+.qf {font-size:0;}
+.qf::before {font-size: 14px; content: "〟";}
