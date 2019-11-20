@@ -1,10 +1,10 @@
-var event = $(#tate).get(0).onclick;
+var event = $(#tate).get("changeStyle('//turtle-enk.github.io/tategaki.css');").onclick;
 
 $(function(){
    if($.cookie("tate")){
-      $("#tate").get(0).onclick = event;
+      $("#tate").get("changeStyle('//turtle-enk.github.io/tategaki.css');").onclick = event;
   } else {
-  $("#tate").get(0).onclick = "";
+  $("#tate").get("changeStyle('//turtle-enk.github.io/tategaki.css');").onclick = "";
   
 $("#tate").click(function() {
       $.cookie("tate" , "tate" , { expires: 30, path: "/" });
