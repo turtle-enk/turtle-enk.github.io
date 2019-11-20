@@ -8,10 +8,10 @@ $(function(){
   
 $("#tate").click(function() {
       $.cookie("tate" , "tate" , { expires: 30, path: "/" });
-      }
+      });
 $("#yoko").click(function() {
       $.removeCookie("tate" , { path: "/" });
-    }
+    });
   return false;
   });
 });
