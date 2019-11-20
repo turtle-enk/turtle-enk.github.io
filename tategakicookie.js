@@ -1,4 +1,3 @@
-<script>
 var event = $(#tate).get(0).onclick;
 
 $(function(){
@@ -16,4 +15,3 @@ $("#yoko").click(function() {
   return false;
   });
 });
-</script>
