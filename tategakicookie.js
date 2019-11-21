@@ -4,7 +4,7 @@ $(function(){
    if($.cookie("tate")){
       $("#tate").get(0).onclick = event;
   } else {
-  $("#tate").get(0).onclick = "";
+  $("#tate").get(0).onclick = "";};
   
 $("#tate").click(function() {
       $.cookie("tate" , "tate" , { expires: 30, path: "/" });
@@ -12,6 +12,4 @@ $("#tate").click(function() {
 $("#yoko").click(function() {
       $.removeCookie("tate" , { path: "/" });
     });
-  return false;
-  };
 });
