@@ -13,5 +13,5 @@ $("#yoko").click(function() {
       $.removeCookie("tate" , { path: "/" });
     });
   return false;
-  });
+  };
 });
