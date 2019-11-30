@@ -1,6 +1,6 @@
 #honbun{
     font:14px 'STHeitiJ-light','Hiragino Mincho Pro','Hiragino Mincho ProN','HiraMinProN-W3','Yu Mincho','serif';
-letter-spacing: 1.2px;
+letter-spacing: 1px;
 line-height: 1.8em;
 height:calc(100% - 100px);
 height:-webkit-calc(100% - 100px);
