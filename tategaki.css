@@ -1,6 +1,6 @@
 #honbun{
     font:14px 'STHeitiJ-light','Hiragino Mincho Pro','Hiragino Mincho ProN','HiraMinProN-W3','Yu Mincho','serif';
-letter-spacing: 1px;
+letter-spacing: 1.1px;
 line-height: 1.8em;
 height:calc(100% - 100px);
 height:-webkit-calc(100% - 100px);
@@ -17,7 +17,8 @@ height:-moz-calc(100% - 100px);
     -webkit-writing-mode: vertical-rl;
     -o-writing-mode: vertical-rl;
 }
-#honbun k{display:inline-block;letter-spacing: 0px;margin:1px 0;}
+#honbun k{display:inline-block;letter-spacing: 0px;margin:1.1px 0;}
+#honbun br{line-height:1em;}
 
 .tc{
     text-combine-upright: all;
