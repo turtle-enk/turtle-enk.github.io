@@ -3,7 +3,7 @@ $(function() {
   $('#button1').click(function() {
  
 //クッキー登録
-$.cookie('cookie2', 'test2', {expire:7});
+$.cookie('cookie1', 'tate1', {expire:7});
 
     // 所定の要素のテキストを書き換える
   $('#tatecss').html('<link rel="stylesheet" href="//turtle-enk.github.io/tategaki.css" type="text/css" id="tatelink">');
@@ -13,7 +13,7 @@ $.cookie('cookie2', 'test2', {expire:7});
 
 $(function(){
 // クッキーがあったらタグ挿入
-    if ($.cookie("cookie2")){
+    if ($.cookie("cookie1")){
         $('#tatecss').html('<link rel="stylesheet" href="//turtle-enk.github.io/tategaki.css" type="text/css" id="tatelink">')};
 });
 $(function() {
@@ -24,6 +24,6 @@ $(function() {
   // pの子要素以下を削除
   $('#tatecss').empty();
 
-    $.removeCookie("cookie2");
+    $.removeCookie("cookie1");
 });
 });
