@@ -3,7 +3,7 @@ $(function() {
   $('#button1').click(function() {
  
 //クッキー登録
-$.cookie('cookie2', 'tate2', {expires: 7});
+$.cookie('cookie2', 'tate2', { expires: 7 });
 
     // 所定の要素のテキストを書き換える
   $('#tatecss').html('<link rel="stylesheet" href="//turtle-enk.github.io/tategaki.css" type="text/css" id="tatelink">');
