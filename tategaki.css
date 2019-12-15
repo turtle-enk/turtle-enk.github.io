@@ -27,9 +27,9 @@ height:-moz-calc(100% - 100px);
 .to{text-orientation: upright; -webkit-text-orientation: upright;}
 
 .qf {visibility:hidden;}
-.qf::before {font-size: 14px; content: "〝";}
+.qf::before {visibility:visible;font-size: 14px; content: "〝";}
 
 .qe {visibility:hidden;}
-.qe::before {font-size: 14px; content: "〟";}
+.qe::before {visibility:visible;font-size: 14px; content: "〟";}
 
 @media screen and (max-width: 400px) {.qf,.qe{ font-size : 90% ;}}
