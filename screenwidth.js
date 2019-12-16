@@ -6,7 +6,7 @@ isPcSize = ($windowWidth > $breakPoint);
 
 if(isMobileSize){
 //モバイルサイズの場合の記述
-$("main").css("max-width", 100 + "%");}
+$("main").css("font-color", red );}
 
 if(isPcSize){
 //PCサイズの場合の記述
