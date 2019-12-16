@@ -1,4 +1,4 @@
-$windowWidth = window.screen.width; // 画面の横幅
+$fonction(){$windowWidth = window.screen.width; // 画面の横幅
 $breakPoint = 600;
  
 isMobileSize = ($windowWidth <= $breakPoint);
@@ -11,3 +11,4 @@ $("main").css("color", "#000" );}
 if(isPcSize){
 //PCサイズの場合の記述
 $("main").css("max-width", 600 + "px");}
+            )};
