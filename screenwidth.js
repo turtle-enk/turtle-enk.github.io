@@ -6,7 +6,7 @@ isPcSize = ($windowWidth > $breakPoint);
 
 if(isMobileSize){
 //モバイルサイズの場合の記述
-$("main").css("color", red );}
+$("main").css("color", "#000" );}
 
 if(isPcSize){
 //PCサイズの場合の記述
