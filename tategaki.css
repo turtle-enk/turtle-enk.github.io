@@ -26,10 +26,10 @@ height:-moz-calc(100% - 100px);
     -ms-text-combine-horizontal: all;}
 .to{text-orientation: upright; -webkit-text-orientation: upright;}
 
-.qf {font-size:0;}
-.qf::before {visibility:visible;font-size: 14px; content: "〝";}
+.qf {font-size:0px;}
+.qf::before {visibility:visible;font-size: 1em; content: "〝";}
 
-.qe {font-size:0;}
-.qe::before {visibility:visible;font-size: 14px; content: "〟";}
+.qe {font-size:0px;}
+.qe::before {visibility:visible;font-size: 1em; content: "〟";}
 
 @media screen and (max-width: 400px) {.qf,.qe{ font-size : 90% ;}}
