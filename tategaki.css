@@ -22,13 +22,11 @@ height:-webkit-calc(100% - 100px);
 
 .qf {font-size:0px;
 font-size:-webkit-calc(14px - 14px);
-font-size:-moz-calc(14px - 14px);
 font-size: calc(14px - 14px);}
 .qf::before {visibility:visible;font-size: 14px; content: "〝";}
 
 .qe {font-size:0px;
 font-size:-webkit-calc(14px - 14px);
-font-size:-moz-calc(14px - 14px);
 font-size: calc(14px - 14px);}
 .qe::before {visibility:visible;font-size: 14px; content: "〟";}
 
