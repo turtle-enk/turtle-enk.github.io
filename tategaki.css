@@ -29,5 +29,3 @@ font-size: calc(14px - 14px);}
 font-size:-webkit-calc(14px - 14px);
 font-size: calc(14px - 14px);}
 .qe::before {visibility:visible;font-size: 14px; content: "〟";}
-
-@media screen and (max-width: 400px) {.qf,.qe{ font-size : 90% ;}}
