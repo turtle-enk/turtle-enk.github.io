@@ -1,0 +1,13 @@
+k {display: inline-block;
+letter-spacing: 0px;
+margin: 0 1px;}
+
+b {-webkit-text-emphasis: filled dot;
+text-emphasis: filled dot;
+font-weight: normal;}
+
+rt {text-align: center}
+
+.ten {
+text-align: center;
+letter-spacing: 7px;}
