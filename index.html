@@ -3,8 +3,255 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  
+<link href="//fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+@import url('//fonts.googleapis.com/css?family=Open Sans|Julius+Sans+One');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+body {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 180%;
+    font-family: "Open Sans","ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #EEE;
+    transition: .3s;
+}
+
+strong {
+    font-weight: bold;
+}
+
+strong a{
+    font-weight: bold;
+}
+
+article {
+    max-width: 450px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.page p {
+    margin-bottom: 18px;
+}
+.no{margin-bottom:0;}
+
+.icon {
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.top {
+    margin:20px auto; 
+}
+
+.blink {
+    -webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+header {
+text-align:center;
+    margin: 30px auto;
+}
+
+h1 span {
+    margin-top: 5px;
+    display: block;
+    font-size: 10px;
+}
+
+h1 span::before,
+h1 span::after {
+    content: '-';
+}
+
+ul {
+    text-align: center;
+    margin: 5px 0 ;
+}
+
+ul li {
+    transition: .3s;
+    list-style-type: none;
+    display: inline-block;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    background: #333;
+    border: 1px solid #333;
+    padding: 2px 3px;
+    position: relative;
+    z-index: 2;
+}
+
+ul li a {
+    color: #FFF;
+    border: none;
+}
+
+ul li:hover {
+    background: #FFF;
+}
+
+ul li:hover a {
+    color: #333;
+}
+
+.rank {
+    font-size: 10px;
+    margin: 3px 0 0 7px;
+}
+
+.rank a {
+    letter-spacing: 2px;
+}
+
+.rank a:last-child::after {
+    content: '';
+    margin: 0;
+}
+
+hr.line {
+    border: none;
+    margin: 40px 0;
+}
+
+hr.line::after {
+    display: block;
+    content: '●●●';
+    font-size: 10px;
+    letter-spacing: 6px;
+    color: #DFDFDF;
+    height: 10px;
+    width: 50px;
+    margin: 20px auto;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    max-width: 150px;
+    margin: 50px auto 10px;
+}
+
+h2::before {
+    border-top: 1px solid;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+}
+
+h2 span {
+    font-family: 'Julius Sans One', sans-serif;
+    background: #FFF;
+    display: inline-block;
+    padding: 0 0.5em;
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+}
+
+h3::before {
+    content: '\f105';
+    font-family: "FontAwesome";
+    margin-right: 5px;
+    -webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+
+h3 {
+    display: inline-block;
+    min-width: 80px;
+    padding: 0 5px;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 16px;
+    margin: 20px 0 8px;   
+}
+
+textarea, input{
+    border-radius: 4px;
+    border: none;
+    background: #F4F4F4;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #333;
+    letter-spacing: 0.8px;
+    font-family: "Open Sans", sans-serif; 
+webkit-box-shadow: none;
+-webkit-appearance: none;
+}
+
+input[type="submit"], button{
+font-family: "Julius Sans One", sans-serif;
+    letter-spacing: 1px;
+    background: #333;
+    padding: 5px 4px;
+color: #FFF;
+margin:2px 0;
+border: 1px solid #333;}
+
+input[type="submit"]:hover, button:hover {
+    background: #FFF;
+    color: #333;
+}
+
+textarea{
+    display: block;
+    height: 90px;
+    width: 100%;
+}
+
+textarea:focus, {
+    outline: none;
+    box-shadow: 0 0 1px rgba(0,0,0,1);
+}
+
+form{margin-block-end: 0;}
+
+</style>
 </head>
   <body><article class="top"><header><h1>No Weather<span>sparkle inside of you</span></h1><p class="icon blink"><i class="fa fa-rocket" aria-hidden="true"></i></p><ul><li><a href="#page0">ABOUT</a></li> <li><a href="#page1">NOTE</a></li> <li><a href="#page2">MAIN</a></li> <li><a href="#page3">COLOPHON</a></li></ul><p class="rank"> <a href="http://01.rknt.jp/entry.php?in_id=yestd&id=joestar&guid=on">JOGIO'S BIZARRE DREAM</a> - <a href="http://milkyrank.net/yume2/in.php?eid=yestd&guid=ON">夢物語</a></p></header></article><article class="page"><h2 id="page0"><span>ABOUT</span></h2>ジョジョ3、5部中心夢サイト。設定がっつりな夢主ばかり。この世の色々とは直接関係ありません。<br /> <h3>CONTACT</h3>
 <form action="/yestd/clap/1/?ResultOrder=1" method="POST"><input type="text" name="Message" value="" /><br /><input type="submit" value="CLAP" /></form><hr class="line" />
