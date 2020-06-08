@@ -1,6 +1,6 @@
 window.onload = function(){
 	var linkID = "mix";	// リンクを設定するタグのID
-	var linkURL = "/category.php?cid=1";
+	var linkURL = "/jodre/category.php?cid=1";
 	var baseTag = document.getElementById(linkID);
 	var link1 = baseTag.firstChild.nodeValue;
 	var aTag = document.createElement("a");
