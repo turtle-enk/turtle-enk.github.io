@@ -10,3 +10,13 @@
 .right{
  text-align:right;
 }
+
+.rank{
+ margin:12px;
+}
+
+.category{
+border-bottom:1px solid #333;
+margin:0 .5em;
+}
+
